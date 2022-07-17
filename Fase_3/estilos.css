@@ -1,32 +1,42 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    vertical-align: baseline;
 }
 
 header{
+    display: flex;
     background-color: beige;
-    padding: 50px;
+    padding: 20px;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: table;
+    width: 100%;
 }
 
-/*nav{
-    background-color: bisque;
-}*/
+section{
+    background-color: aliceblue;
+    /*padding: 30px;*/
+    float: left;
+    width: 60%;
+}
+aside{
+    background-color: antiquewhite;
+    /*padding: 10px;*/
+    /*grid-column: 4/5;*/
+    float: right;
+    width: 40%;
+    height: 714px;
+}
 
 nav a{
     color: rgb(0, 81, 255);
     text-decoration: none;
-}
-section{
-    background-color: aliceblue;
-}
-
-footer{
-    background-color: azure;
 }
 
 .menu{
@@ -77,4 +87,10 @@ footer{
 
 .menu li ul li ul{
     right: 140px;
+}
+
+footer{
+    background-color: azure;
+    display: table;
+    width: 100%;
 }
